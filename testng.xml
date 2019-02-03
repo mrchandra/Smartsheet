@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smartsheet Test" verbose="1">
+	<listeners>
+		<listener class-name="com.smartsheet.automation.utils.Listeners"></listener>
+	</listeners>
+
+	<test name="Transact Columns">
+		<classes>
+			<class name="com.smartsheet.automation.tests.HomeTests" />
+		</classes>
+	</test>
+</suite>
+
+
